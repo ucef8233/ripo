@@ -4,7 +4,7 @@
 
 a:hover {
   text-decoration: none;
-  color: orange;
+  color: #FECB00;
 }
 
 /* .news_link {
@@ -25,15 +25,18 @@ a:hover {
   width: 80vw;
   padding: 0px 20px;
   margin: 30px 0px;
-  background-color: orange;
+  background-color: #FECB00;
   border-radius: 30px;
 }
-.news_bar h4{
+
+.news_bar h4 {
   text-transform: uppercase;
 }
-.news_bar P{
+
+.news_bar P {
   padding-top: 10px;
 }
+
 .news {
   display: grid;
   grid-template-columns: repeat(4, 1Fr);
@@ -51,13 +54,13 @@ a:hover {
 }
 
 .news_categorie {
-  background-color: orange;
+  background-color: #FECB00;
   text-align: center;
   margin: 10px 0px;
-  width: 80%;
+  width: 44%;
   padding: 7px 0px;
   color: black;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .news_categorie a {
@@ -65,17 +68,17 @@ a:hover {
 }
 
 .card-img-top {
-  border: 1px solid orange;
+  border: 1px solid white;
 }
 
 .news_categorie:hover {
   background-color: antiquewhite;
-  color: orange;
+  color: #FECB00;
 }
 
 .news_card:first-child>.news_categorie {
   padding: 10px 0px;
-  width: 70%;
+  width: 30%;
 }
 
 .news_title {
